@@ -17,16 +17,22 @@ Este proyecto es un convertidor de monedas que permite realizar conversiones ent
 
 ## 🌐 Uso del Programa
 
-1. El programa solicita la API KEY para acceder a la API de Exchangerate.
-2. Permite elegir entre las siguientes conversiones de divisas:
+1. **Agregar Dependencia de Gson**:
+   - Debes agregar la librería Gson a tu proyecto. Puedes descargarla desde [aquí](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1) en formato .jar.
+   - Una vez descargado, agrégalo a tu proyecto en el módulo correspondiente:
+      - Ve a `Dependencies` y agrega el archivo .jar descargado.
+
+2. El programa solicita la API KEY para acceder a la API de Exchangerate.
+3. Permite elegir entre las siguientes conversiones de divisas:
    - Dólar (USD) a Peso Argentino (ARS).
    - Dólar (USD) a Peso Chileno (CLP).
    - Peso Argentino (ARS) a Dólar (USD).
    - Peso Argentino (ARS) a Peso Chileno (CLP).
    - Peso Chileno (CLP) a Dólar (USD).
    - Peso Chileno (CLP) a Peso Argentino (ARS).
-3. El usuario ingresa el monto a convertir, y el programa realiza la conversión con la tasa de cambio actual obtenida de la API.
-4. Si la API no puede proporcionar la tasa de cambio solicitada, se muestra un mensaje de error.
+4. El usuario ingresa el monto a convertir, y el programa realiza la conversión con la tasa de cambio actual obtenida de la API.
+5. Si la API no puede proporcionar la tasa de cambio solicitada, se muestra un mensaje de error.
+
 
 ## ⚠️ Validaciones
 
